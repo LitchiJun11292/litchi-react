@@ -1,0 +1,10 @@
+# Browsers that we support
+defaults
+IE 11
+last 2 versions
+> 1%
+iOS 7
+last 3 iOS versions
+
+# 查看选择了哪些浏览器： npx browserslist
+# 参考文档：https://www.jianshu.com/p/b3ea906d7d24

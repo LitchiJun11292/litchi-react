@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+      "checkJs": true,
+      "outDir": "build/dist",
+      "module": "esnext",
+      "target": "esnext",
+      "lib": ["esnext", "dom"],
+      "sourceMap": true,
+      "baseUrl": ".",
+      "jsx": "preserve",
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "noImplicitReturns": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "allowJs": true,
+      "skipLibCheck": true,
+      "experimentalDecorators": true,
+      "strict": true,
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    },
+    "include": [
+      "mock/**/*",
+      "src/**/*",
+      "tests/**/*",
+      "test/**/*",
+      "__test__/**/*",
+      "typings/**/*",
+      "script/**/*",
+      ".eslintrc.js",
+      ".stylelintrc.js",
+      ".prettierrc.js",
+      "mock/*",
+      "mock/hoc/taskSystem/.ts",
+      "historySever.js"
+    ],
+    "exclude": [
+      "node_modules",
+      "build",
+      "dist",
+      "scripts",
+      "src/.umi/*",
+      "webpack"
+    ]
+  }
