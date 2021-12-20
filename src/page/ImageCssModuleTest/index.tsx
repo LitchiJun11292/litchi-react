@@ -9,7 +9,6 @@ interface WelcomeInter {
 }
 
 const ImageTest: React.FC<WelcomeInter> = () => {
-  console.log(J);
 
   return (
     <>
