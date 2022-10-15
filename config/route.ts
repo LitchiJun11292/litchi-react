@@ -38,6 +38,11 @@ export default [
         title: "Request 接入",
         component: () => import("@/page/RequestTest"),
       },
+      {
+        path: "performanceAnalysis",
+        title: "charts 接入",
+        component: () => import("@/page/performanceAnalysis"),
+      },
     ],
   },
 ];
